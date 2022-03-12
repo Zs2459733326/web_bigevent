@@ -1,0 +1,57 @@
+/* 字体图标 */
+.layui-icon {
+    margin-right: 15px;
+}
+/* 头像 */
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+/* 底部固定部分 */
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
+}
+/* 来自ifname首页内容 */
+#zhuti {
+    width: 100%;
+    height: 100%;
+}
+/* 主体内容 */
+.layui-body {
+    /* 让超出部分隐藏可以达到消除滚动条的效果 */
+    overflow: hidden;
+}
+
+/* 强制清除 layui 为a标签添加的动画效果 */
+a {
+    transition: none !important;
+}
+
+/* 头像共同样式 */
+.userinfo {
+    width: 200px;
+    height: 50px;
+    padding-left:30px ;
+    line-height: 50px;
+    /* 不希望里面的内容被选中 */
+    user-select: none;
+    
+}
+/* 左侧边栏头像 */
+div.userinfo {
+    margin-top: 10px;
+    border-bottom: 2px solid #000;
+}
+
+/* 文本头像 */
+.text-avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #009688;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
