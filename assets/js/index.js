@@ -18,7 +18,7 @@ $(function() {
     })
 })
 
-// 使用ajax 动态获取用户基本信息
+// 使用ajax 动态获取用户基本信息 （渲染作用）
 function getUserInfo() {
     $.ajax({
         method: 'get',
