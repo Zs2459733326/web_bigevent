@@ -37,6 +37,8 @@ $(function () {
                     return layer.msg('修改密码失败')
                 }
                 layer.msg('修改密码成功')
+                // 重置表单
+                $(".layui-form")[0].reset();
             }
 
         })
